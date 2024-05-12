@@ -1,0 +1,26 @@
+This README file contains information on the contents of the meta-mmr-config layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+  NONE
+
+Patches
+=======
+
+Please submit any patches against the meta-mmr-config layer to the maintainer:
+
+Maintainer: Tommaso Labieni <tommaso.labieni@gmail.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-mmr-config layer to your build
+
+
+I. Adding the meta-mmr-config layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-mmr-config'
