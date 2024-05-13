@@ -9,7 +9,7 @@ S = "${WORKDIR}"
 python do_display_banner() {
     bb.plain("***********************************************");
     bb.plain("*                                             *");
-    bb.plain("*      CREATING CUSTOM MMR CONFIGUATIONS      *");
+    bb.plain("*     INSTALLING CUSTOM MMR CONFIGUATIONS     *");
     bb.plain("*                                             *");
     bb.plain("***********************************************");
 }
