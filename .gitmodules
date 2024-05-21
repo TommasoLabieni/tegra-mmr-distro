@@ -18,3 +18,7 @@
 	path = repos/meta-tegra-community
 	url = https://github.com/OE4T/meta-tegra-community
 	branch = master
+[submodule "layers/meta-ros"]
+	path = layers/meta-ros
+	url = git@github.com:ros/meta-ros.git/
+	branch = scarthgap
