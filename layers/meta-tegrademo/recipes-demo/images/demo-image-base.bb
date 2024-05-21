@@ -6,6 +6,7 @@ inherit extrausers
 EXTRA_USERS_PARAMS = "usermod -p '\$6\$movtWRpdFtd/FnXg\$HbEYuBK0AcH6G/rTI4Amxnf.LdGYwNS4V5XxoFXpQC3PZVI5fZKCOruL0KkSZS6ijLTanSTjOuuX1vaPFQCW70' root;"
 
 CORE_IMAGE_BASE_INSTALL += "mmr-config \
+                            tkdnn \
                             kernel-modules \
                             iproute2 \
                             canutils \
@@ -16,4 +17,5 @@ CORE_IMAGE_BASE_INSTALL += "mmr-config \
                             opencv \
                             cmake \
                             yaml-cpp \
-                            curl"
+                            curl \
+                            ros-core"

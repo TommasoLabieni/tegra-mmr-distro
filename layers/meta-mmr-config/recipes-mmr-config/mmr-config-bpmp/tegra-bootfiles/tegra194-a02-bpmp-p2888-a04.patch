@@ -1,0 +1,18 @@
+--- tegra194-a02-bpmp-p2888-a04.dts	2024-05-21 12:41:45.712281998 +0200
++++ tegra194-a02-bpmp-p2888-a04-mmr.dts	2024-05-21 12:41:22.092330979 +0200
+@@ -23,13 +23,13 @@
+ 
+ 		clock@can1 {
+ 			allow_fractional_divider = <0x01>;
+-			allowed-parents = <0x121 0x5b 0x13a>;
++			allowed-parents = <0x121 0x5b 0x13a 0x5e>;
+ 			clk-id = <0x09>;
+ 		};
+ 
+ 		clock@can2 {
+ 			allow_fractional_divider = <0x01>;
+-			allowed-parents = <0x121 0x5b 0x13a>;
++			allowed-parents = <0x121 0x5b 0x13a 0x5e>;
+ 			clk-id = <0x0b>;
+ 		};
+ 
